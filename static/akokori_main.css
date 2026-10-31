@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 100%;
+    color: #000;
+    overflow-x: hidden;
+    margin: 0
+}
+
+
+
+
+.page-section {font-family: 'Copse', sans-serif; font-size: 35px; text-align:left; padding: 10px}
+
+.roundrect {border-radius: 30px; padding: 7px; width:180px; height:180px}
+
+.modal-title {text-align: center;}
+
+img.wrap {float: left}
+
+.nav-item{
+    opacity: 0.6;
+}
+
+
+@media (min-width: 56.25em) {
+    .h1,h1 {
+        font-size:3em;
+        line-height: 1.05
+    }
+}
+
+.h2,h2 {
+    font-size: 1.625em;
+    line-height: 1.15384615
+}
+
+@media (min-width: 43.75em) {
+    .h2,h2 {
+        font-size:2em;
+        line-height: 1.25
+    }
+}
+
+@media (min-width: 56.25em) {
+    .h2,h2 {
+        font-size:2.25em;
+        line-height: 1.25
+    }
+}
+
+.h3,h3 {
+    font-size: 1.375em;
+    line-height: 1.13636364
+}
+
+@media (min-width: 43.75em) {
+    .h3,h3 {
+        font-size:1.5em;
+        line-height: 1.25
+    }
+}
+
+@media (min-width: 56.25em) {
+    .h3,h3 {
+        font-size:1.75em;
+        line-height: 1.25
+    }
+}
+
+.h4,h4 {
+    font-size: 1.125em;
+    line-height: 1.11111111
+}
+
+@media (min-width: 43.75em) {
+    .h4,h4 {
+        line-height:1.22222222
+    }
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    margin: .5rem 0 1.5rem;
+    font-family: Open Sans,Helvetica,Arial,sans-serif
+}
+
+
+
+.button {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: purple;
+    font-size: .9em;
+    line-height: 1.2em;
+    font-weight: 300;
+    padding: .5em 1.5em;
+    border: 1px solid purple;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: .5em;
+    transition: background-color .14s ease-in-out
+}
+
+.top-bottom{
+    background-color: #c8563c;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px
+}
+
+a{
+  color: purple;
+}
+
+a:hover{
+    color: #c8563c;
+}
+
+
+
+/* Target links that open in a new tab */
+a[target="_blank"] {
+  position: relative;
+  text-decoration: none; /* optional */
+}
+
+/* Hide the icon by default */
+a[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  margin-left: 4px;
+  background-image: url('new_tab_icon.png'); /* Replace with your icon URL */
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Show the icon on hover */
+a[target="_blank"]:hover::after {
+  opacity: 1;
+}
+
